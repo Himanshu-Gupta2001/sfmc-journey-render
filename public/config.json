@@ -1,7 +1,7 @@
 {
   "workflowApiVersion": "1.1",
   "metaData": {
-    "icon": "https://YOUR_APP_URL.onrender.com/icon.png",
+    "icon": "https://sfmc-journey-render.onrender.com/icon.png",
     "category": "custom"
   },
   "type": "REST",
@@ -17,7 +17,7 @@
         { "emailAddress": "" },
         { "firstName": "" }
       ],
-      "url": "https://YOUR_APP_URL.onrender.com/execute",
+      "url": "https://sfmc-journey-render.onrender.com/execute",
       "timeout": 10000,
       "retryCount": 2,
       "retryDelay": 1000,
@@ -25,13 +25,13 @@
     }
   },
   "configurationArguments": {
-    "publish":  { "url": "https://YOUR_APP_URL.onrender.com/publish" },
-    "validate": { "url": "https://YOUR_APP_URL.onrender.com/validate" },
-    "stop":     { "url": "https://YOUR_APP_URL.onrender.com/stop" }
+    "publish":  { "url": "https://sfmc-journey-render.onrender.com/publish" },
+    "validate": { "url": "https://sfmc-journey-render.onrender.com/validate" },
+    "stop":     { "url": "https://sfmc-journey-render.onrender.com/stop" }
   },
   "userInterfaces": {
     "configModal": {
-      "url": "https://YOUR_APP_URL.onrender.com/",
+      "url": "https://sfmc-journey-render.onrender.com/",
       "height": 200,
       "width": 400
     }
